@@ -1,0 +1,110 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times new roman', cursive;
+  padding: 5px 25px;
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  margin: 0;
+  color: #444;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Mairie_du_15e_Arrondissement_at_night_140223_4.jpg/1200px-Mairie_du_15e_Arrondissement_at_night_140223_4.jpg");
+  background-position: 50px 0px;
+  background-attachment: scroll;
+}
+
+
+
+
+
+/******************************/
+/*****    Menu du site   ******/
+/******************************/
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  height: 50px;
+  background-color: #9da9ad;
+  background-size: left;
+}
+
+
+.conteneur {
+  display: flex;
+  width: auto;
+  background-color: see-through;
+  justify-content: space-between;
+}
+
+.vertical-menu {
+    width: 300px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #1994c1; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #eee;
+    color: black;
+    padding: 12px;
+    width: 300px;
+    font-size: 18px;
+    font-family: 'times new roman';
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eee;
+    min-width: 300px;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ccc}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ccc;}
+ul ul {display: none; position: absolute; left: 140px; top: 0px; margin: 0px; padding: 0px;}
+li {list-style-type: none; position: relative; width: 300px; background-color: #E0E0E0}
+li:hover ul.niveau2, li li:hover ul.niveau3 {display: block}
