@@ -42,12 +42,10 @@ h1 {
   font: Arial;
 }
 
-.left {
-  float:left;
-}
-
-.right {
-  float:right;
+.box {
+  display: flex;
+  width: 100%;
+  align-content: space-between; 
 }
 
 .conteneur {
