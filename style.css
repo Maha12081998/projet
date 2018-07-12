@@ -38,11 +38,12 @@ header {
   background-size: left;
 }
 
-h1 {
-  text-align: center;
+
+.box {
+  display: flex;
+  flex-direction: row;
 
 }
-
 
 .conteneur {
   display: flex;
@@ -113,3 +114,7 @@ h1 {
 ul ul {display: none; position: absolute; left: 140px; top: 0px; margin: 0px; padding: 0px;}
 li {list-style-type: none; position: relative; width: 300px; background-color: #E0E0E0}
 li:hover ul.niveau2, li li:hover ul.niveau3 {display: block}
+
+.horloge {
+  background-color: white;
+}
