@@ -17,6 +17,9 @@ body {
   background-attachment: scroll;
 }
 
+h1 {
+  font: Arial;
+}
 
 header {
   display: flex;

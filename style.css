@@ -38,6 +38,9 @@ header {
   background-size: left;
 }
 
+h1 {
+  font: Arial;
+}
 
 .box {
   display: flex;
