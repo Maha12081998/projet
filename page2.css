@@ -27,3 +27,20 @@ header {
   background-color: #9da9ad;
   background-size: left;
 }
+
+h2 {
+  color: red;
+  font-size: 15px;
+  align-items: center;
+
+}
+
+.middle {
+  position: relative;
+  display: inline-block;
+}
+
+.middle p {
+  color: green;
+  background-color: yellow;
+}
