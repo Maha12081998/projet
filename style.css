@@ -44,7 +44,7 @@ h1 {
 
 .box {
   display: flex;
-  flex-direction: row;
+  flex-direction: space-between;
 
 }
 
