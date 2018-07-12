@@ -45,7 +45,7 @@ h1 {
 .box {
   display: flex;
   flex-direction: space-between;
-
+  width: 100%;
 }
 
 .conteneur {
