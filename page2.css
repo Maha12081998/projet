@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times new roman', cursive;
+  padding: 5px 25px;
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  margin: 0;
+  color: #444;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Mairie_du_15e_Arrondissement_at_night_140223_4.jpg/1200px-Mairie_du_15e_Arrondissement_at_night_140223_4.jpg");
+  background-position: 50px 0px;
+  background-attachment: scroll;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  height: 50px;
+  background-color: #9da9ad;
+  background-size: left;
+}
