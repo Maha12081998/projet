@@ -42,10 +42,12 @@ h1 {
   font: Arial;
 }
 
-.box {
-  display: flex;
-  flex-direction: space-between;
-  width: 100%;
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
 }
 
 .conteneur {
