@@ -136,3 +136,24 @@ li:hover ul.niveau2, li li:hover ul.niveau3 {display: block}
 .horloge {
   background-color: #eee;
 }
+
+
+/* Page 2 */
+
+
+h2 {
+  color: red;
+  font-size: 30px;
+  text-align; center;
+
+}
+
+.middle {
+  position: relative;
+  display: inline-block;
+}
+
+.middle p {
+  color: green;
+  background-color: yellow;
+}
