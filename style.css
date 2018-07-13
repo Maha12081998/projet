@@ -80,7 +80,7 @@ h1 {
 }
 
 .vertical-menu a.active {
-    background-color: #1994c1; /* Add a green color to the "active/current" link */
+    background-color: #1994c1; /* Add a blue color to the "active/current" link */
     color: white;
 }
 
@@ -142,10 +142,13 @@ li:hover ul.niveau2, li li:hover ul.niveau3 {display: block}
 
 
 h2 {
-  color: lightblue;
+  color: #1994c1;
   font-size: 40px;
-  padding-left: 15px;
-
+  padding-left: 30px;
+  font-family: : Arial;
+  font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
 }
 
 .middle {
