@@ -142,15 +142,16 @@ li:hover ul.niveau2, li li:hover ul.niveau3 {display: block}
 
 
 h2 {
-  color: grey;
+  color: lightblue;
   font-size: 40px;
-  text-align; center;
+  padding-left: 15px;
 
 }
 
 .middle {
   position: relative;
   display: inline-block;
+  padding-left: 10px;
 }
 
 .middle p {
