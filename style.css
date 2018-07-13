@@ -154,32 +154,15 @@ h2 {
 
 .presentation {
   margin-top: 135px;
-  background-color: ;
-  padding-left: 50px;
+  background-color: black;
+  padding-left: 30px;
+  width: 450px;
 }
 
-.presentation ul {
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
+.presentation p {
+  color: #eee;
 }
 
-
-.presentation li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  background-color: WHITE;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  color: black;
-  font-size: 15px;
-  font-family: Arial;
-}
 
 /* Page 3 */
 
