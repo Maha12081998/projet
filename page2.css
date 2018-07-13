@@ -6,10 +6,10 @@
 
 body {
   font-family: 'Times new roman', cursive;
-  padding: 5px 25px;
+  padding: 0px 0px;
   color: black;
   font-size: 18px;
-  background-color: white;
+  background-color: black;
   margin: 0;
   color: #444;
 }
@@ -18,17 +18,19 @@ body {
   content: "";
   position: fixed;
   height: 100%; width: 100%;
-  background: url("https://www.actualitix.com/wp-content/uploads/2017/01/villes-les-plus-visitees-europe.jpg");
-  background-size: cover;
+  background: url("http://www.letstravelsomewhere.com/wp-content/uploads/2013/02/lets-travel-to-france-paris-with-sergio-lanza-casado-6.jpg");
   z-index: -1; /* Keep the background behind the content */
-  -webkit-filter: blur(0px);
+  -webkit-filter: blur(5px);
   background-size: cover; /* version standardisée */
 }
 
 
 h1 {
-  font: Arial;
-
+  font-family: : Arial;
+  font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
 }
 
 header {

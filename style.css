@@ -7,10 +7,10 @@
 
 body {
   font-family: 'Times new roman', cursive;
-  padding: 5px 25px;
+  padding: 0px 0px;
   color: black;
   font-size: 18px;
-  background-color: white;
+  background-color: black;
   margin: 0;
   color: #444;
 }
@@ -19,13 +19,11 @@ body {
   content: "";
   position: fixed;
   height: 100%; width: 100%;
-  background: url("https://www.actualitix.com/wp-content/uploads/2017/01/villes-les-plus-visitees-europe.jpg");
-  background-size: cover;
+  background: url("http://www.letstravelsomewhere.com/wp-content/uploads/2013/02/lets-travel-to-france-paris-with-sergio-lanza-casado-6.jpg");
   z-index: -1; /* Keep the background behind the content */
-  -webkit-filter: blur(0px);
+  -webkit-filter: blur(5px);
   background-size: cover; /* version standardisée */
 }
-
 
 
 
@@ -46,20 +44,23 @@ header {
 }
 
 h1 {
-  font: Arial;
+  font-family: : Arial;
+  font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
 }
 
 .box {
   display: flex;
-  width: 100%;
-  align-content: space-between;
+  justify-content: space-between;
 }
 
 .conteneur {
   display: flex;
   width: auto;
   background-color: see-through;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .vertical-menu {
@@ -125,6 +126,13 @@ ul ul {display: none; position: absolute; left: 140px; top: 0px; margin: 0px; pa
 li {list-style-type: none; position: relative; width: 300px; background-color: #E0E0E0}
 li:hover ul.niveau2, li li:hover ul.niveau3 {display: block}
 
+
+.blocblanc {
+  background-color: see-through;
+  width: 700px;
+
+}
+
 .horloge {
-  background-color: white;
+  background-color: #eee;
 }
