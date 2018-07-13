@@ -146,10 +146,26 @@ h2 {
   font-size: 40px;
   padding-left: 30px;
   font-family: : Arial;
+  text-align: left;
   font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 }
+
+.presentation {
+  margin-top: 135px;
+  background-color: #eee;
+  padding-left: 50px;
+}
+
+.presentation p {
+  color: black;
+  font-size: 15px;
+  font-family: Arial;
+
+}
+
+/* Page 3 */
 
 .middle {
   position: relative;
@@ -161,6 +177,3 @@ h2 {
   color: green;
   background-color: yellow;
 }
-
-
-/* Page 3 */
